@@ -1,7 +1,5 @@
 # encoding: utf-8
 
-require 'mime_types'
-
 class Kindeditor::AssetUploader < CarrierWave::Uploader::Base
   
   EXT_NAMES = {:image => RailsKindeditor.upload_image_ext,
